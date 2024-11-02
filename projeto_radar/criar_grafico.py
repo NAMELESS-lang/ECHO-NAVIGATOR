@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def atualizar_grafico(grau, dist):
+def atualizar_grafico(grau, dist): # Função que atualiza o gráfico com as coordenadas do corpo detectado
     fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
     fig.set_facecolor("black")
     ax.set_facecolor("#01403A")
@@ -18,7 +18,7 @@ def atualizar_grafico(grau, dist):
     fig.savefig("C:\\Users\\mathe_u45khu0\\OneDrive\\Área de Trabalho\\projeto_radar\\radar.png")
     return
 
-def grafico_inicial():
+def grafico_inicial(): # Cria o gráfico inicial da interface
     fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
     fig.set_facecolor("black")
     ax.set_facecolor("#01403A")
@@ -31,7 +31,7 @@ def grafico_inicial():
     fig.savefig("C:\\Users\\mathe_u45khu0\\OneDrive\\Área de Trabalho\\projeto_radar\\radar.png")
     return
 
-def som_sonar():
+def som_sonar(): # Emite o som do sonar
     import pygame
     caminho = "C:\\Users\\mathe_u45khu0\\OneDrive\\Área de Trabalho\\projeto_radar\\sonar sound effect.WAV"
     pygame.mixer.init()
