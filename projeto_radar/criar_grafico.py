@@ -15,7 +15,7 @@ def atualizar_grafico(grau, dist): # Função que atualiza o gráfico com as coo
     point, = ax.plot([graus], [dist], "r", marker = "o", markersize=9)
     ax.text(graus,dist+1.5,f"{dist}cm", fontsize = 10, ha="center",color="white")
     point, = ax.plot([graus_sensor],[1.2], "w",marker="*", markersize=10)
-    fig.savefig("C:\\Users\\mathe_u45khu0\\OneDrive\\Área de Trabalho\\projeto_radar\\radar.png")
+    fig.savefig("C:\\Users\\mathe_u45khu0\\OneDrive\\Área de Trabalho\\projeto_radar\\radar.png") #Local onde é salvo o gráfico
     return
 
 def grafico_inicial(): # Cria o gráfico inicial da interface
@@ -28,7 +28,7 @@ def grafico_inicial(): # Cria o gráfico inicial da interface
     ax.set_yticks(np.linspace(0, 30, 4))
     ax.tick_params(colors="#04D9C4", labelsize=15, size = 15, grid_color = "#05f2db")
     point, = ax.plot([(90*np.pi/180)],[1.2], "w",marker="*", markersize=10)
-    fig.savefig("C:\\Users\\mathe_u45khu0\\OneDrive\\Área de Trabalho\\projeto_radar\\radar.png")
+    fig.savefig("C:\\Users\\mathe_u45khu0\\OneDrive\\Área de Trabalho\\projeto_radar\\radar.png") #Local onde é salvo o gráfico
     return
 
 def som_sonar(): # Emite o som do sonar

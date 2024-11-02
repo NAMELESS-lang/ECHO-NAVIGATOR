@@ -8,7 +8,7 @@ portas_disponiveis = None
 def analise():
     global atualizar_agora, graus_graf, dist, conectado, desconectar
     try:
-        ser = serial.Serial("COM9", 9600)  # Conecta à porta serial precisa mudar a porta
+        ser = serial.Serial("COM9", 9600)  # Conecta à porta serial
         conectado = True
         while desconectar == False:  # Loop contínuo para ler os dados
             if ser.in_waiting:  # Verifica se há dados na porta
