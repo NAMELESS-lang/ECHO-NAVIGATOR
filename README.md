@@ -19,8 +19,9 @@ seu computador para que funcionem corretamente.
 
 Para conseguir obter as informações do arduino e necessário estabelecer a conexão com ele, para isso é preciso dizer neste trecho do código a seguir qual é a porta USB em que o arduino está conectado  
   ser = serial.Serial("COM9", 9600)    
-Caso não saiba qual seja a porta, execute o seguinte comando:  
+Caso não saiba qual seja a porta, execute o seguinte comando no terminal:  
   python -m serial.tools.list_ports  
+Lembre-se de ja ter instalado a biblioteca pyserial
 
 O script RADAR.ino utiliza uma biblioteca que não está inclusa por padrão na IDE do arduino, por isso junto do projeto há um arquivo chamado "Ultrasonic-master.zip" que contém
 esta biblioteca que foi utilizada, portanto basta somente incluí-la no arduino IDE.
