@@ -5,10 +5,10 @@ O projeto consiste em um simulador de um sonar de submarino, que possui uma inte
 e com o arduino junto ao módulo sensor ultrassônico.
 
 Ele é divido em quatro scripts:
-  conexão_ard.py: Realiza a conexão com o arduino;  
-  app.py: Cria a interface do aplicativo que simula o HUB de um sonar;
-  criar_grafico.py: Responsável por criar os gráficos que indicam a localização dos corpos e o som do sonar;
-  RADAR.ino: Este é usado no software arduino IDE, que é usado para programação do arduino.
+  conexão_ard.py:   Realiza a conexão com o arduino;  
+  app.py: Cria a interface do aplicativo que simula o HUB de um sonar;  
+  criar_grafico.py: Responsável por criar os gráficos que indicam a localização dos corpos e o som do sonar;  
+  RADAR.ino: Este é usado no software arduino IDE, que é usado para programação do arduino.  
 
 Considerações importantes:
 
