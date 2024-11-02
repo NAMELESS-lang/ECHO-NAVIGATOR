@@ -19,3 +19,6 @@ O script RADAR.ino utiliza uma biblioteca que não está inclusa por padrão na 
 esta biblioteca que foi utilizada, portanto basta somente incluí-la no arduino IDE.
 
 
+O funcionamento do projeto foi validado por meio de uma feira de projeto ocorrida no Senac Santo Ângelo. Junto do projeto há uma foto de um certificado que valida seu funcionamento
+
+
