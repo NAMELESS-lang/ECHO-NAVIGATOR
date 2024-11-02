@@ -15,6 +15,11 @@ Considerações importantes:
 Ao usar o projeto, lembre-se de alterar os caminhos dos diretórios existentes nos scripts (app.py e criar_grafico.py) para os que coincidem com o do
 seu computador para que funcionem corretamente.
 
+Para consiguir obter as informações do arduino e necessário estabelecer a conexão com ele, para isso é necessário dizer neste trecho do código a seguir qual é a porta USB em que o arduino está conectado  
+  ser = serial.Serial("COM9", 9600)    
+Caso não saiba qual seja a porta, execute o seguinte comando:  
+  python -m serial.tools.list_ports  
+
 O script RADAR.ino utiliza uma biblioteca que não está inclusa por padrão na IDE do arduino, por isso junto do projeto há um arquivo chamado "Ultrasonic-master.zip" que contém
 esta biblioteca que foi utilizada, portanto basta somente incluí-la no arduino IDE.
 
