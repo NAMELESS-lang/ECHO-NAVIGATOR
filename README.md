@@ -12,6 +12,8 @@ Ele é divido em quatro scripts:
 
 Considerações importantes:
 
+Há comentários no código que explicam o que trechos específicos de código do projeto realizam
+
 Ao usar o projeto, lembre-se de alterar os caminhos dos diretórios existentes nos scripts (app.py e criar_grafico.py) para os que coincidem com o do
 seu computador para que funcionem corretamente.
 
