@@ -16,7 +16,7 @@ Ao usar o projeto, lembre-se de alterar os caminhos dos diretórios existentes n
 seu computador para que funcionem corretamente.
 
 Para consiguir obter as informações do arduino e necessário estabelecer a conexão com ele, para isso é necessário dizer neste trecho do código a seguir qual é a porta USB em que o arduino está conectado
-ser = serial.Serial("COM9", 9600) 
+ser = serial.Serial("COM9", 9600)  
 Caso não saiba qual seja a porta, execute o seguinte comando:  
 python -m serial.tools.list_ports
 
